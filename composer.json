@@ -1,7 +1,7 @@
 {
     "name": "chisbread/flarum-fire-extends",
     "description": "flarum extends for maplefire",
-    "type": "composer-plugin",
+    "type": "flarum-extension",
     "license": "GPL-3.0-or-later",
     "autoload": {
         "psr-4": {
@@ -14,10 +14,13 @@
             "email": "chisbread@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "flarum/core": "^1.2.0"
+    },
     "extra": {
         "flarum-extension": {
             "title": "FlarumFireExtends",
+            "category": "feature",
             "icon": {
                 "name": "fas fa-fire",
                 "backgroundColor": "#238c59",
