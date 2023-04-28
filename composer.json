@@ -2,7 +2,7 @@
     "name": "chisbread/flarum-fire-extends",
     "description": "flarum extends for maplefire",
     "type": "composer-plugin",
-    "license": "GPLv3",
+    "license": "GPL-3.0-or-later",
     "autoload": {
         "psr-4": {
             "Chisbread\\FlarumFireExtends\\": "src/"
