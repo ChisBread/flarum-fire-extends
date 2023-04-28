@@ -19,12 +19,12 @@
     },
     "extra": {
         "flarum-extension": {
-            "title": "FlarumFireExtends",
+            "title": "FireExtends",
             "category": "feature",
             "icon": {
                 "name": "fas fa-fire",
-                "backgroundColor": "#238c59",
-                "color": "#fff"
+                "backgroundColor": "#DAB494",
+                "color": "#E25822"
             }
         }
     }
